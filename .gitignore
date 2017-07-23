@@ -1,0 +1,22 @@
+#.classpath
+#.project
+.settings
+target/
+.idea/
+*.iml
+backList
+pom.xml.releaseBackup
+release.properties
+soa-backup
+README.org
+.DS_Store
+
+# gradle
+.gradle/
+payment-api/build/
+payment-business/build/
+payment-common/build/
+payment-console/build/
+payment-job/build/
+payment-service/build/
+payment-webapi/build/
