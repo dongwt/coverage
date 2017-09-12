@@ -12,4 +12,6 @@ public interface PayService {
     void weiXinPay();
 
     void cmbPay();
+
+    String mackPay();
 }

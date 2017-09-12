@@ -6,14 +6,17 @@ import com.dongwt.service.impl.PayServiceImpl;
 import com.dongwt.service.impl.RefundServiceImpl;
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Created by dongwt on 2017/7/21.
  */
-public class TestService {
+public class TestService extends BaseTest{
 
-    PayService payService = new PayServiceImpl();
-    RefundService refundService = new RefundServiceImpl();
+    @Autowired
+    PayService payService ;
+    @Autowired
+    RefundService refundService ;
 
     @Test
     public void testPay(){
